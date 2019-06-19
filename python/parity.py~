@@ -1,0 +1,16 @@
+def sign(number):
+    if number<0:
+        return -1
+    else:
+        return 1
+
+def parity(number):
+    if number%2==0:
+        return "even"
+    else:
+        return "odd"
+
+print(sign(12))
+print(sign(-12))
+print(parity(12))
+print(parity(11))
