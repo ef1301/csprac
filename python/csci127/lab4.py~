@@ -1,0 +1,6 @@
+'''
+int(): converts a string (series of letters) into the corresponding integer (whole number).
+float(): converts a string (series of letters) into the corresponding floating point number (real number).
+str(): converts a number into the corresponding sequence of letters.
+'''
+

@@ -1,0 +1,18 @@
+import turtle #importing the turtle package
+tia=turtle.Turtle() #creates turtle
+tia.color(red)
+for i in range(4): #for loop
+    tia.forward(150) #moves the turtle forward
+    tia.right(90) #turtle turns right
+    #tia.left(45) #turtle turns left
+
+var=input("Please enter an input: ") #how to do user input
+print(var)
+
+#string.count('C') counts the number of chars 
+
+#range(stop)
+#range(start,stop)
+#range(start,stop,step)
+for i in range(2,5):
+    print(i)
